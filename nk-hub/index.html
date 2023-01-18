@@ -55,9 +55,6 @@
             footer{
                 background-color: rgb(78, 78, 78);
                 text-align: center;
-                position: fixed;
-                bottom: 0;
-                width: 100%;
             }
             h4{
                 font-size: large;
@@ -94,6 +91,9 @@
                 margin-bottom: auto;
                 background-color: rgb(13, 13, 13);
             }
+            h6{
+                color: rgb(238, 36, 84);
+            }
         </style>
     </head>
     <body>
@@ -103,16 +103,19 @@
                 <a href="subjects.html"> Subjects </a>
                 <a href="grades.html"> Grades</a>
                 <a href="authors.html"> Author</a>
+                <div class="secret">
+                    <a href="easter-egg.html"> <h6> Secret </h6> </a>
+                </div>
                 <input type="text" placeholder="Search..">
         </div>
         <div id="announcements">
             <h1>Welcome Back!</h1>
             <p> Good Morning, Good Afternoon, or Good Evening scholar! Hope you are excited to learn and ignite your passion!</p>
-            <br>
-            <div class="subject"></div>
-            <img alt src="CSBanner.png">
-                <a href="subjects.html"><h3> Computer Science</h3></a>
         </div>
+            <section>
+                <img alt src="CSBanner.png">
+                <a href="#"><h3> Computer Science</h3></a>
+            </section>
         <footer>
             <h4>Made by Group 6</h4>
         </footer>
